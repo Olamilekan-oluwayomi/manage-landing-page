@@ -247,6 +247,8 @@
     padding: 3rem 6rem;
     overflow: visible;
     padding-top: 6rem;
+    background-color: hsl(13, 100%, 97%); /* solid but very light */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   }
 
   .testimonial--item img {
