@@ -490,3 +490,7 @@ form button:active {
   color: #fff;
   opacity: 0.2;
 }
+
+.mobile--copyright {
+  display: none;
+}

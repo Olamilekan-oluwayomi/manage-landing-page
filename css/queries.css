@@ -233,7 +233,9 @@
     gap: 5rem;
     margin-top: 10rem;
     width: 100vw; /* however much extra you want */
-    margin-left: 0; /* centers the content and adds extra space on the left */
+    margin-left: calc(
+      50% - 50vw
+    ); /* centers the content and adds extra space on the left */
   }
 
   .test--hiden {
@@ -275,13 +277,25 @@
 
   .footer--container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 3rem;
+    grid-template-columns: 1fr;
+
     row-gap: 5rem;
+    padding: 2rem 6rem;
   }
 
   .forms {
     grid-row: 2/3;
-    grid-column: 1/2;
+  }
+
+  .footer--link {
+    text-align: center;
+  }
+
+  .copyright {
+    display: none;
+  }
+
+  .mobile--copyright {
+    display: block;
   }
 }
