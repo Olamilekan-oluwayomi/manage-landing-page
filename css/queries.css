@@ -233,7 +233,8 @@
     gap: 5rem;
     margin-top: 10rem;
     width: 100vw; /* however much extra you want */
-    margin-left: 0; /* centers the content and adds extra space on the left */
+    margin-left: calc(50% - 50vw); /* just aligns to viewport edge, no extra */
+
   }
 
   .test--hiden {
@@ -285,3 +286,4 @@
     grid-column: 1/2;
   }
 }
+
