@@ -233,9 +233,7 @@
     gap: 5rem;
     margin-top: 10rem;
     width: 100vw; /* however much extra you want */
-    margin-left: calc(
-      50% - 50vw
-    ); /* centers the content and adds extra space on the left */
+    margin-left: calc(50% - 50vw); /* centers the content and adds extra space on the left */
   }
 
   .test--hiden {
@@ -299,3 +297,4 @@
     display: block;
   }
 }
+
